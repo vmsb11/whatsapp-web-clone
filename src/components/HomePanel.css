@@ -1,0 +1,71 @@
+.HomePanel {
+
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: #F6FAFA;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.HomePanel img {
+    border-radius: 50%;
+    width: 256px;
+    height: 256px;
+}
+
+.HomePanel .Image {
+
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.HomePanel .MainMessages {
+
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.HomePanel .MainMessages > h1 {
+
+    font-weight: 100;
+    font-size: 36px;
+    color: grey;
+    text-align: center;
+}
+
+.HomePanel .MainMessages > p {
+
+    font-weight: 200;
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+}
+
+.HomePanel .DownloadMessages > p {
+
+    font-weight: 200;
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+}
+
+a.LinkWhatsApp:link {text-decoration: none; font-size: 15px; color: #18AC08;} 
+a.LinkWhatsApp:visited {text-decoration: none; font-size: 15px; color: #18AC08;} 
+a.LinkWhatsApp:active {text-decoration: none; font-size: 15px; color: #18AC08;} 
+a.LinkWhatsApp:hover {text-decoration: none; color: #18AC08; font-size: 15px;}
+
+.HomePanel > hr {
+
+    height: 5px;
+    border: none;
+    width: 100%;
+    background-color: #1BB709;
+}
+
+.HomePanel > footer {
+    position: absolute;
+}

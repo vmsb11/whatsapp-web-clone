@@ -1,0 +1,72 @@
+.ConversationHeader {
+    display: flex;
+    background-color: #F0EEEE;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.ConversationHeader img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.ConversationHeader .ImageDetail {
+    
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ConversationHeader .Options {
+
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;    
+}
+
+.ConversationHeader .Description {
+
+    flex: 6;
+    display: flex;
+    flex-direction: column;    
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.ConversationHeader .Description .Contact {
+
+    font-weight: 300;
+    line-height: 0px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.ConversationHeader .Description .LastEntrance {
+
+    line-height: 0px;
+    font-size: 14px;
+    color: gray;
+}
+
+
+a {
+    padding-right: 10px;
+}
+
+a.LinkStatus:link {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkStatus:visited {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkStatus:active {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkStatus:hover {color: gray; font-size: 32px;}
+
+a.LinkChat:link {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkChat:visited {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkChat:active {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkChat:hover {color: gray; font-size: 32px;}
+
+a.LinkOptions:link {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkOptions:visited {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkOptions:active {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkOptions:hover {color: gray; font-size: 32px;}

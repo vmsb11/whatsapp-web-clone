@@ -1,0 +1,47 @@
+.Header {
+    display: flex;
+    background-color: #F0EEEE;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.Header .ImageDetail {
+    
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Header .Options {
+
+    display: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;    
+}
+
+a {
+    padding-right: 10px;
+}
+
+a.LinkStatus:link {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkStatus:visited {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkStatus:active {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkStatus:hover {color: gray; font-size: 32px;}
+
+a.LinkChat:link {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkChat:visited {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkChat:active {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkChat:hover {color: gray; font-size: 32px;}
+
+a.LinkOptions:link {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkOptions:visited {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkOptions:active {text-decoration: none; font-size: 32px; color: gray;} 
+a.LinkOptions:hover {color: gray; font-size: 32px;}

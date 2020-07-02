@@ -1,0 +1,9 @@
+.MessagesPanel {
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-right: solid;
+    border-right-width: 1px;
+    border-color: gray;
+}
